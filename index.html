@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chaitanya's Website</title>
+  <link rel="icon" type="image/png" href="https://imgs.search.brave.com/ZsymQWO4314IGrhn7ADlvNLvztQpaX6Qo7rAb5kB8bk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBpbmltZy5jb20vb3JpZ2luYWxzLzIzL2Y3Lzk1LzIzZjc5NWFlZGMyN2E1N2IzNmNhMTQ5MTY1YjYyMTVmLmpwZw">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="head">This is Chaitanya's webpage</h1>
+  <br>
+  <div id="works">
+    <h2 style="font-family: 'Ubuntu Sans', sans-serif; color: aliceblue;">Below are some animations I made as a part of my college group project.</h2>
+    <h3>HILL CIPHER DEMONSTRATION:</h3>
+    <h3><a href="https://en.wikipedia.org/wiki/Hill_cipher">About Hill Cipher</a></h3>
+    
+    <div style="max-width: 100%; max-height: 10%; margin: 0 auto; margin-left: 5%;">
+      <video style="width: 45%; max-width: 1920px;" controls>
+        <source src="video/cipher.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="font-family: 'Ubuntu Sans', sans-serif;">Above video demonstrates Hill cipher by multiplying the message, "ACT" (in the form of a matrix) by the key matrix. The resulting matrix when read in mod 26 gives us the ciphered message, "POH".</p>
+      
+      <video style="width: 45%; max-width: 1920px;" controls>
+        <source src="video/decipher.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p style="font-family: 'Ubuntu Sans', sans-serif;">In order to decrypt "POH", we multiply it's matrix by the inverse of the key matrix and the result is the original message (ACT) matrix.</p>
+    </div>
+    <h3 style="color: aliceblue;">All animations made using 3Blue1Brown's <a href="https://manim.community">Manim library</a></h3>
+  </div>
+  <br>
+  <div id="socials">
+    <a class="link" href="https://www.youtube.com/@suspended3785">
+      <img id="ytlinkimg" title="Visit my YouTube channel!" src="png/yt.png">
+    </a>
+    <br>
+    <br>
+    <a class="link" href="https://www.instagram.com/chaitanyasawant883/">
+      <img id="instalinkimg" title="Visit my Instagram page!" src="png/insta.png">
+    </a>
+    <br>
+    <br>
+    <a class="link" href="https://letterboxd.com/chaitanyasawant/">
+      <img id="letterboxdlinkimg" title="Visit my Letterboxd page!" src="png/letterboxd.png">
+    </a>
+  </div>
+  <br>
+  <!--
+  <div id="jsbox">
+    <div>
+      <p class="jsboxtitle">Welcome message by js:</p>
+      <label class="jsboxlable">Enter your name:</label>
+      <input class="jsboxinput" id="input1" placeholder="Your name here"><br>
+      <button class="jsboxbutton" id="submit1">Submit name</button>
+    </div>
+    
+    <br>
+    
+    <div>
+      <p class="jsboxtitle">Combinations Calculator</p>
+      <label class="jsboxlable">Enter n:</label>
+      <input class="jsboxinput" id="input2" type="text" placeholder="How many total objects"><br>
+      <label class="jsboxlable">Enter k:</label>
+      <input class="jsboxinput" id="input3" type="text" placeholder="How many objects to choose"><br>
+      <label class="jsboxlable" id="factlable">n choose k is equal to...</label><br>
+      <button class="jsboxbutton" id="submit2">Submit numbers</button>
+    </div>
+  </div>
+  -->
+  <!-- <script src="index.js"></script> -->
+</body>
+
+</html>

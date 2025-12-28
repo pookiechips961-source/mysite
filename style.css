@@ -1,0 +1,110 @@
+#head {
+    color: rgb(132, 215, 52);
+    font-size: 75px;
+    margin-top: 0px;
+    padding: 25px;
+    border-radius: 55px;
+    text-align: center;
+    font-family: 'Ubuntu Sans', sans-serif;
+}
+
+#socials {
+    padding: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+#ytlinkimg {
+    width: 200px;
+    height: auto;
+}
+
+#ytlinkimg:hover {
+    width: 260px;
+}
+
+#instalinkimg {
+    width: auto;
+    height: 60px;
+}
+
+#instalinkimg:hover {
+    height: 5em;
+}
+
+#letterboxdlinkimg {
+    width: auto;
+    height: 60px;
+}
+
+#letterboxdlinkimg:hover {
+    height: 80px;
+}
+
+#works {
+
+    color: rgb(132, 215, 52);
+
+
+}
+
+#jsbox {
+    border: 3px solid;
+    border-color: #a5aced;
+    background-color: #71727f;
+    width: 80%;
+    margin-left: 3%;
+    margin-right: 17%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 40px;
+
+}
+
+.jsboxtitle {
+    margin-top: 10px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.jsboxlable {
+    margin-left: 9px;
+}
+
+.jsboxinput {
+    margin-left: 9px;
+    height: min-content;
+    width: min-content;
+    font-size: 30px;
+}
+
+.jsboxbutton {
+    margin-left: 9px;
+    font-size: 0.7em;
+    border-radius: 10px;
+    border-color: #121212;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 46, 215);
+
+
+
+}
+
+body {
+    background-color: #121212;
+    /*background-image: url(https://imgs.search.brave.com/aQh9cdMAkdGfn_CXZbQ-oL5d8vOpHhYP-zcpH0YvR70/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Ry/b3Bob3RvbnMuYi1j/ZG4ubmV0L3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDI1LzA1L25l/YnVsYS1kcmlmdC00/ay13YWxscGFwZXIu/anBn);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
